@@ -55,6 +55,7 @@ body {
 .title{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
+
 }
 
 .nav ul {
@@ -89,6 +90,7 @@ body {
     width: 70%;
     text-align: justify;
     color: white;
+    padding-left: 15px;
     
 }
 
@@ -110,4 +112,9 @@ body {
 
 }
 
-
+.skils h3{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+}
