@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0 ;
+}
+
+h2 {
+    padding: 7px;
+}
+
+body {
+    margin: 0 auto;
+    background-image: url("./paper.jpeg");
+    padding: 100px;
+    
+}
+
+.contener {
+    width: 800px;
+    min-height: 800px;
+    border: 7px solid white;
+    margin: 0 auto;
+    background: url("./paper1.jpg")no-repeat;
+    background-size: cover;
+}
+.header {
+    display: flex;
+    width: 100%;
+    height: 150px;
+}
+
+.title {
+    width: 80%;
+    height: 148px;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+
+.userpic {
+    width: 20%;
+    height: 148px;
+    background: url();
+}
+
+.search{
+    padding-top: 20px;
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    background: rgb(223, 221, 221);
+}
+
+.title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.nav ul {
+    width: 60%;
+    list-style-type: none;
+    display: flex;
+    background: rgb(223, 221, 221);
+}
+
+.nav li a {
+    padding: 20px;
+    display: flex;
+    text-decoration: none;
+    color: rgb(97, 95, 95);
+    border-right: 2px solid rgb(184, 180, 180);
+    font-size: 20px;
+    transition:  background 0.4s ease;
+    
+}
+.nav li a:hover{
+    background: rgb(153, 153, 156);
+    color: whitesmoke;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    height: 600px;
+}
+
+.leter{
+    width: 70%;
+    text-align: justify;
+    color: white;
+    
+}
+
+.skils ul {
+    list-style-type: none;
+    padding-left: 30px;
+    color: antiquewhite;
+}
+
+.skils li{
+
+    transition: .3s;
+    margin: 10px;
+    
+}
+
+.skils li:hover{
+    transform: translate(10px);
+
+}
+
+
